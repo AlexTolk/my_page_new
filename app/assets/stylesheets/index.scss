@@ -3,19 +3,22 @@
   display: flex;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   text-align: right;
-  font-size: 3rem;
+  justify-content: space-between;
   /* font-family: Roboto; */
   color:aliceblue;
+  min-height: fit-content;
+  min-width: fit-content;
   #photo {
     padding: 1rem 0 0 0;
+    border: 5px 5px white;
   }
   .introtext {
-    margin: 1rem;
+    margin: 1rem 1rem 0 0;
     line-height: 8rem;
+    overflow: visible;
   }
   .introtext h2 {
     font-family: "Roboto";
-    white-space: nowrap;
-    overflow: hidden;
+    font-size: 4rem;
   }
 }
