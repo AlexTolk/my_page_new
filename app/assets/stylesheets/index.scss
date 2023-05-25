@@ -1,0 +1,21 @@
+#selfintro {
+  margin: 2rem 2rem;
+  display: flex;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  text-align: right;
+  font-size: 3rem;
+  /* font-family: Roboto; */
+  color:aliceblue;
+  #photo {
+    padding: 1rem 0 0 0;
+  }
+  .introtext {
+    margin: 1rem;
+    line-height: 8rem;
+  }
+  .introtext h2 {
+    font-family: "Roboto";
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}

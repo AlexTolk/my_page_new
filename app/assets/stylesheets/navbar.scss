@@ -1,0 +1,50 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  color: azure;
+  background-color: rgba(13,35,44,0.9);
+  justify-content: space-between;
+  align-content: center;
+  border-radius: 0  0 5px 5px;
+  padding: 1rem 0;
+  box-shadow: 0px 1px 5px #ffcc00;
+}
+
+.logo {
+  padding-left: 1rem;
+  font-family: Permanent Marker;
+  text-shadow: 0.5px 0.5px #ffcc00;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  padding-right: 2rem;
+  font-family: Lato;
+  font-size: large;
+  align-self: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.menu ul li {
+  padding: 0 1rem;
+}
+
+.navbar-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-link a:hover {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0.5px 0.5px 1px #ffcc00;
+}
