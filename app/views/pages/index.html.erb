@@ -1,8 +1,44 @@
-<div id="selfintro">
-  <div id="photo"><img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412967/Me_wvlsqv.png" alt=""></div>
-  <div class="introtext">
-    <h2>Hi! My name is Alex Tolkachev,</h2>
-    <h2>I make websites🧑‍💻</h2>
-    <h2>Welcome to my page!</h2>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div id="selfintro">
+      <div id="photo"><img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412967/Me_wvlsqv.png" alt=""></div>
+      <div class="introtext">
+        <h2>Hi! My name is Alex Tolkachev,</h2>
+        <h2>I make websites🧑‍💻</h2>
+        <h2>Welcome to my page!</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="cards_wrap">
+        <div class="cards_wrap__card">
+          <div class="cards_wrap__card-stick">
+            <h2>
+              HERE ARE SOME OF MY PROJECTS
+              <%= link_to do %> <span>See my projects</span> <% end %>
+            </h2>
+
+          </div>
+        </div>
+        <div class="cards_wrap__card">
+          <div class="cards_wrap__card-stick color2">
+            <h2>Compas<span>find your travel companion</span></h2>
+          </div>
+        </div>
+        <div class="cards_wrap__card">
+          <div class="cards_wrap__card-stick color3">
+            <h2>Compas BnB<span>find your perfect stay!</span></h2>
+          </div>
+        </div>
+
+        <div class="cards_wrap__card">
+          <div class="cards_wrap__card-stick last">
+            <h2>Movierate<span>Create custom lists of your favourite movies!</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</body>
