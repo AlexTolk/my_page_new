@@ -5,7 +5,7 @@
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   text-align: right;
   justify-content: space-between;
-  /* font-family: Roboto; */
+  font-family: Roboto;
   color:aliceblue;
   min-height: fit-content;
   min-width: fit-content;
@@ -21,6 +21,7 @@
     margin: 1rem 1rem 0 0;
     line-height: 8rem;
     overflow: visible;
+    align-self: center;
   }
   .introtext h2 {
     font-family: "Roboto";
