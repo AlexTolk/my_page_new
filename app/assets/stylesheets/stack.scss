@@ -1,0 +1,38 @@
+.container-stack {
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  margin: 2em 4em;
+  min-height: 100vh;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-stack {
+  color: white;
+  font-family: Lato;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.intro-stack h1 {
+  margin-bottom: 10px;
+}
+
+.stack-desc {
+  margin: auto 3em;
+  display: flex;
+  padding: 2em;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 36px;
+  font-family: Roboto;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.stack-desc p {
+  display: flex;
+  margin-left: 35px;
+  align-self: center;
+}

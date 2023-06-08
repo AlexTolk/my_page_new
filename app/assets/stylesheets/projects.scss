@@ -1,0 +1,48 @@
+.container-proj {
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  margin: 2em 4em;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-proj {
+  color: white;
+  font-family: Lato;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.intro-proj h1 {
+  margin: 10px;
+}
+
+.project-card {
+  background-color: rgba(13,35,44,0.9);
+  box-shadow: 1.5px 1.5px 3px 2px black;
+  display: flex;
+  margin: 2rem 2rem;
+  justify-content: space-between;
+  color: whitesmoke;
+  font-family: Roboto;
+  padding: 1rem;
+}
+.desc{
+  margin: 15px;
+}
+.desc h3 {
+  margin-bottom: 10px;
+}
+
+.desc p {
+  font-size: 15px;
+}
+
+.link-box h1 {
+  margin: 15px 0 15px 0;
+}
+
+.link-box a {
+  color: #ffcc00;
+}

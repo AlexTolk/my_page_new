@@ -1,0 +1,52 @@
+img {
+  height: 10em;
+}
+.container {
+  height: auto;
+  display: flex;
+  margin: 2em;
+  padding: 1em;
+  background-color: #E9D0B4;
+  font-family: Indie Flower, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: space-around;
+}
+
+.bio-photo {
+  background-color: aliceblue;
+  border-radius: 100%;
+  height: 10em;
+  width: 10em;
+}
+
+.bio{
+  transform: skewX(2deg);
+  transform: skewY(2deg);
+  display: flex;
+  flex-direction: column;
+  margin: 3em;
+  background-color: blanchedalmond;
+  padding: 1em 2em 5em 2em;
+  box-shadow: 2px 2px 3px black;
+}
+
+.bio h1 {
+  margin-bottom: 2rem;
+  color:black;
+}
+
+.bio p {
+  font-size: 24px;
+  color:black;
+}
+
+.photo {
+  display: flex;
+  height: 30rem;
+  width: auto;
+}
+
+.photo img {
+  height: 15rem;
+  box-shadow: 1px 1px 3px black;
+  align-self: end;
+}
