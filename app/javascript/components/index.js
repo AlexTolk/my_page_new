@@ -1,20 +1,23 @@
-const app = new Vue({
-  el: '#app',
-  data: {
-    projectsList: [{
-      "title": "Compas",
-      "description": "Compas - find your ideal travel partner, this was a graduation project at Le Wagon coding bootcamp",
-      "url": "https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/img1_o0oqzh.png"
-    },
-    {
-      "title": "Compas BnB",
-      "description": "Compas - find your perfect stay, this was a learning project at Le Wagon coding bootcamp",
-      "url": "https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/img2_erbij5.png"
-    },
-    {
-      "title": "Movierate",
-      "description": "Movierate - create and edit your own lists of movie recommendations",
-      "url": "https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/img3_flbyr4.png"
-    }]
-  }
-})
+// import Typed from 'typed.js';
+
+// let options = {
+//   strings: "hello",
+//   typeSpeed: 40
+// };
+
+// let typed = new Typed('#intro1', options);
+
+
+function rotate() {
+  var lastChild = document.querySelector('.slider div:last-child').cloneNode()
+
+  /*$('#test').html(lastChild)*/
+  document.querySelector('.slider div').classList.remove('firstSlide')
+  document.querySelector('.slider div:last-child').remove();
+  document.querySelector('.slider').prepend(lastChild)
+  document.querySelector(lastChild).addClass('firstSlide')
+}
+
+window.setInterval(function(){
+  rotate()
+}, 4000);

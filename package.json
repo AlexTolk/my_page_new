@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "typed.js": "^2.0.16",
+    "vue-typed-js": "^0.1.2"
+  }
+}

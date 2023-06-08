@@ -2,3 +2,13 @@
 # yarn lockfile v1
 
 
+"typed.js@^2.0.16", "typed.js@git+https://github.com/mattboldt/typed.js.git":
+  "resolved" "git+ssh://git@github.com/mattboldt/typed.js.git#cd02e533c772e35ad60ee48656b33e610eadaca7"
+  "version" "2.0.16"
+
+"vue-typed-js@^0.1.2":
+  "integrity" "sha512-9kDGuz17uYJghe/1hepRWiWYssgUFtrKnMGPHlWjVRxdvs/d9xYYWMkgzztjhx1R1B33hXkN8ctmkzCYHQ+caA=="
+  "resolved" "https://registry.npmjs.org/vue-typed-js/-/vue-typed-js-0.1.2.tgz"
+  "version" "0.1.2"
+  dependencies:
+    "typed.js" "git+https://github.com/mattboldt/typed.js.git"
