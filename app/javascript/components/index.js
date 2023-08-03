@@ -1,13 +1,3 @@
-// import Typed from 'typed.js';
-
-// let options = {
-//   strings: "hello",
-//   typeSpeed: 40
-// };
-
-// let typed = new Typed('#intro1', options);
-
-
 function rotate() {
   var lastChild = document.querySelector('.slider div:last-child').cloneNode()
 
