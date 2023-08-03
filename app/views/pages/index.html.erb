@@ -11,7 +11,7 @@
         <h2>Welcome to my page!</h2>
       </div>
     </div>
-    <div class="container">
+    <div class="projects-container">
       <div class="cards_wrap">
         <div class="cards_wrap__card">
           <div class="cards_wrap__card-stick">
@@ -42,24 +42,42 @@
     </div>
     <div class="stack-container">
       <h2 class="stack-title">7 technologies mastered</h2>
-      <div class="slider">
-        <div class="box1">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/rails_daiche.png" class="d-block w-200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/vuejs_ousc6e.png" class="d-block w-200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412965/HTML_kt9cfs.png" class="d-block w-200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412965/javascript_yczsih.png" class="d-block w-200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://logowik.com/content/uploads/images/postgresql6815.jpg" class="d-block w-200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/CSS_poiwba.png" class="d-block w-200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412965/javascript_yczsih.png" class="d-block w-200" alt="...">
+          </div>
         </div>
-        <div class="box2">
-        </div>
-        <div class="box3">
-        </div>
-        <div class="box4">
-        </div>
-        <div class="box5">
-        </div>
-        <div class="box6">
-        </div>
-        <div class="box7">
-        </div>
+        <%# <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> %>
+      </div>
+      <div class="stack-link">
+        <%= link_to "See how I create sites", "/stack"%>
       </div>
     </div>
-</div>
-<div id="test"></div>
   </div>
 </body>

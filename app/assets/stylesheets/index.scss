@@ -1,14 +1,11 @@
 
 #selfintro {
-  margin: 2rem 2rem;
   display: flex;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   text-align: right;
   justify-content: space-between;
   font-family: Roboto;
   color:aliceblue;
-  min-height: fit-content;
-  min-width: fit-content;
   border-radius: 7px;
   #photo {
     padding: 1rem 0 0 0;
@@ -30,18 +27,9 @@
 }
 
 
-body {
-  color: #fff;
-  background: #000;
-}
-
-a {
-  color: #fff;
-}
-
 
 $card-height: 90vh;
-$card-length: 5;
+$card-length: 5vw;
 $class-name: cards_wrap;
 .#{$class-name} {
 
@@ -101,8 +89,6 @@ $class-name: cards_wrap;
   height:80vh;
   display:flex;
   margin: 5vh auto;
-  justify-content:space-around;
-  align-items:center;
   box-shadow: 0px 1px 5px #ffcc00;
   border-radius: 20px;
   display: flex;
@@ -113,113 +99,17 @@ $class-name: cards_wrap;
     font-size: 3rem;
     color:#ffcc00;
     text-shadow: 0px 1px 5px #ffcc00;
-    text-align: center;
+    // text-align: center;
   }
-}
-.slider {
-  height: 15vh;
-  width:75vw;
-  display: flex;
-  perspective: 1000px;
-  position: relative;
-  align-items:center;
+  .stack-link {
+    font-size: 2rem;
+    color:#ffcc00;
+    text-shadow: 0px 1px 5px #ffcc00;
+  }
+    .stack-link {
+    font-size: 2rem;
+    color:#ffcc00;
+    text-shadow: 0px 1px 5px #ffcc00;
+  }
 
-}
-.box1{
-  background:url('https://res.cloudinary.com/practicaldev/image/fetch/s--233aRTvn--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/cpcr5w0kgl6j94tss7n9.png');
-  background-size:cover;
-  background-position:center center;}
-.box2{
-  background:url('https://www.vectorlogo.zone/logos/javascript/javascript-ar21.png');
-  background-size:cover;
-  background-position:center center;}
-.box3{
-  background:url('https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.png');
-  background-size:cover;
-  background-position:center center;}
-.box4{
-  background:url('https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.png');
-  background-size:cover;
-  background-position:center center;}
-.box5{
-  background:url('https://miro.medium.com/v2/resize:fit:870/1*fC1TiemRWYDWObQUlpAnBg.png');
-  background-size:cover;
-  background-position:center center;}
-.box6{
-  background:url('https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png');
-  background-size:cover;
-  background-position:center center;}
-.box7{
-  background:url('https://www.etatvasoft.com/insights/wp-content/uploads/2017/02/b-thumb-img9.jpg');
-  background-size:cover;
-  background-position:center center;}
-
-.slider [class*="box"] {
-/*   float: left; */
-  overflow: hidden;
-  border-radius:20px;
-  transition: all 1s cubic-bezier(0.68, -0.6, 0.32, 1.6);
-  position: absolute;
-}
-.slider [class*="box"]:nth-child(7),
-.slider [class*="box"]:nth-child(1) {
-  width: 30vw;
-  height: 30vh;
-  transform: scale(0.2) translate(-50%,-50%);
-  top: 10%;
-  z-index:1;
-  background-image: none;
-}
-.slider [class*="box"]:nth-child(2),
-.slider [class*="box"]:nth-child(6) {
-  width: 30vw;
-  height: 30vh;
-  transform: scale(0.4) translate(-50%,-50%);
-  top: 20%;
-  z-index:2;
-}
-.slider [class*="box"]:nth-child(3),
-.slider [class*="box"]:nth-child(5) {
-  width: 30vw;
-  height: 30vh;
-  transform: scale(0.6) translate(-50%,-50%);
-  top: 30%;
-  z-index:3;
-}
-.slider [class*="box"]:nth-child(4) {
-  width: 50vw;
-  height: 40vh;
-  border-color: #c92026;
-  box-shadow: 2px 2px 5px #ffcc00;
-  color: #fff;
-  transform: scale(1) translate(-50%,-50%);
-  top: 50%;
-  z-index:4;
-}
-.slider [class*="box"]:nth-child(1){
-  left:-13%;}
-.slider [class*="box"]:nth-child(2){
-  left:-5%;}
-.slider [class*="box"]:nth-child(3){
-  left:10%;}
-.slider [class*="box"]:nth-child(4){
-  left:50%;}
-.slider [class*="box"]:nth-child(5){
-  left:71%;}
-.slider [class*="box"]:nth-child(6){
-  left:85%;}
-.slider [class*="box"]:nth-child(7){
-  left:100%;}
-.slider .firstSlide {
-    -webkit-animation:  firstChild 1s;
-    animation:  firstChild 1s;
-}
-/*Animation for buyers landing page slider*/
-@-webkit-keyframes firstChild {
-    0% {left:100%; transform: scale(0.2) translate(-50%,-50%);}
-    100% {left: -13%; transform: scale(0.2) translate(-50%,-50%);}
-}
-@keyframes firstChild {
-   0% {left:100%; transform: scale(0.2) translate(-50%,-50%);}
-    100% {left: -13%; transform: scale(0.2) translate(-50%,-50%);}
 }
