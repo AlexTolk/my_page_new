@@ -1,7 +1,11 @@
-
+body {
+  background-color: black;
+}
 #selfintro {
+  height: 95%;
+  margin:auto;
   display: flex;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 15%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   text-align: right;
   justify-content: space-between;
   font-family: Roboto;
@@ -51,6 +55,7 @@ $class-name: cards_wrap;
 
     &-stick {
       top: 2rem;
+      margin: 3vh 5vw;
       position: sticky;
       display: flex;
       align-items: center;
@@ -86,27 +91,32 @@ $class-name: cards_wrap;
 }
 .stack-container{
   width:85vw;
-  height:80vh;
-  display:flex;
+  height:60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
   margin: 5vh auto;
   box-shadow: 0px 1px 5px #ffcc00;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 5vh;
+  text-align: center;
+
 
   .stack-title {
+    justify-self: center;
     font-size: 3rem;
     color:#ffcc00;
     text-shadow: 0px 1px 5px #ffcc00;
     // text-align: center;
   }
-  .stack-link {
-    font-size: 2rem;
-    color:#ffcc00;
-    text-shadow: 0px 1px 5px #ffcc00;
+  .carousel {
+    justify-self: center;
+    margin: 0 5vh;
+    display: flex;
+    justify-content: center;
   }
-    .stack-link {
+  .stack-link {
     font-size: 2rem;
     color:#ffcc00;
     text-shadow: 0px 1px 5px #ffcc00;
