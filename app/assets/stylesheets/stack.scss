@@ -1,6 +1,6 @@
 .container-stack {
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  margin: 2em 4em;
+  margin: 3rem;
   min-height: 100vh;
   padding: 0.5rem;
   display: flex;
@@ -35,4 +35,13 @@
   display: flex;
   margin-left: 35px;
   align-self: center;
+}
+
+.card {
+  box-shadow: 0px 1px 5px #ffcc00;
+}
+
+.card:hover {
+  box-shadow: 1px 5px 10px #ffcc00;
+  border: 2px 5px;
 }

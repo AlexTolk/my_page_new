@@ -1,14 +1,13 @@
 body {
-  background-color: black;
+  background: linear-gradient(90deg, rgb(2,0,36), rgb(2, 0, 60), rgb(2, 1, 60))
 }
 #selfintro {
   height: 95%;
-  margin:auto;
+  margin: 10px;
   display: flex;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 15%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: black;
   text-align: right;
   justify-content: space-between;
-  font-family: Roboto;
   color:aliceblue;
   border-radius: 7px;
   #photo {
@@ -16,7 +15,7 @@ body {
 
   }
   #photo img {
-    height: 40vw;
+    height: 75vmin;
   }
   .introtext {
     margin: 1rem 1rem 0 0;
@@ -25,8 +24,33 @@ body {
     align-self: center;
   }
   .introtext h2 {
-    font-family: "Roboto";
+    font-family: 'Ubuntu Mono', Courier, monospace;
     font-size: 5vw;
+    // color:#ffcc00;
+  }
+  .typed-text {
+    color: #ffcc00;
+    font-family: 'Ubuntu Mono', Courier, monospace;
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+    background: #ffcc00;
+  }
+
+  .cursor.blink {
+    animation: blink 0.8s ease-in-out infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      background: #ffcc00;
+    }
+    40%, 50% {
+      background: transparent;
+    }
   }
 }
 
@@ -108,6 +132,7 @@ $class-name: cards_wrap;
     font-size: 3rem;
     color:#ffcc00;
     text-shadow: 0px 1px 5px #ffcc00;
+    margin-bottom: 5vh;
     // text-align: center;
   }
   .carousel {

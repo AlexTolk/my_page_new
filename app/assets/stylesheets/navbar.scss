@@ -32,7 +32,7 @@
 .menu ul {
   list-style: none;
   display: inline-flex;
-  font-size: 1.5vw;
+  font-size: 1em;
 }
 
 .menu ul li {
@@ -48,4 +48,11 @@
   color: white;
   text-decoration: none;
   text-shadow: 0.5px 0.5px 1px #ffcc00;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .menu ul {
+    font-size: 1.5em;
+  }
 }
