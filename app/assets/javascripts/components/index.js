@@ -1,4 +1,4 @@
-console.log('Welcome from index.js')
+console.log('Hello from index.js')
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
