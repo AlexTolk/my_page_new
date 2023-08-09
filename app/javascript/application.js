@@ -1,4 +1,3 @@
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
-import "@hotwired/turbo-rails";
-import "./components/index.js";
-console.log('hello from applicattion.js')
+import 'typed.js'
+import './components/index.js'
