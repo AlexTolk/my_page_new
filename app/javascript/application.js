@@ -1,5 +1,5 @@
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
-import './components'
+// import './components'
 console.log('hello from application.js')
 console.log('Hello from index.js')
 const typedText = document.querySelector(".typed-text");
