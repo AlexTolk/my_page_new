@@ -2,6 +2,20 @@
   <ul class="contacts">
     <%= link_to "https://github.com/AlexTolk?tab=repositories" do %><li><i class="fa-brands fa-github"></i> <br> Github</li> <% end %>
     <%= link_to "https://www.facebook.com/alexandr.tolkachov" do %><li><i class="fa-brands fa-facebook"></i> <br> Facebook</li> <% end %>
-    <%= link_to "https://github.com/AlexTolk?tab=repositories" do %><li><i class="fa-brands fa-telegram"></i> <br> Telegram</li> <% end %>
+    <li data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-brands fa-telegram"></i> <br> Telegram</li>
   </ul>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content  bg-dark">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Scan QR code to add me on Telegram</h1>
+          <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1691671579/QR_qeamxq.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

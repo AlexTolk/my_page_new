@@ -6,7 +6,6 @@ img {
   display: flex;
   margin: 2em;
   padding: 1em;
-  background-color: #E9D0B4;
   font-family: Indie Flower, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   justify-content: space-around;
 }
@@ -49,4 +48,9 @@ img {
   height: 15rem;
   box-shadow: 1px 1px 3px black;
   align-self: end;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    flex-direction: column;
+  }
 }

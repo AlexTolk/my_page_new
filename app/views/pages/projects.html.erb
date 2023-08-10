@@ -4,54 +4,51 @@
     <h4>This is a collection of the projects that I have carried out so far, either myself
     or as a part of a team. The list is contantly being updated.</h4>
   </div>
-  <div class="project-card">
-    <div class="thumb">
-      <%# <%= cl_image_tag "img1_o0oqzh" %>
-      <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/img1_o0oqzh.png" alt="">
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="desc">
-      <h3>Compas - find your travel partner</h3>
-      <p>A website that allows anyone to find a suitable travel companion.
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/img1_o0oqzh.png" class=" w-100 h-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-bg-dark opacity-75">Compas - find your travel partner!</h5>
+          <p class="text-bg-dark opacity-75">A website that allows anyone to find a suitable travel companion.
       Create a trip, find a trip suitable for you and have a once in a lifetime expreience.
       This project has been done by our development team as a graduation project
       at Le Wagon coding bootcamp. When completing this project, I had an honour
       of being its team lead.</p>
-    </div>
-    <div class="link-box">
-      <%= link_to "http://www.compas.cc" do %> <h1><i class="fa-solid fa-globe"></i></h1> <% end %>
-      <%= link_to "https://github.com/andris811/Compas/" do %> <h1><i class="fa-brands fa-github"></i></h1> <% end %>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="thumb">
-      <%# <%= cl_image_tag "img2_erbij5" %>
-      <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/img2_erbij5.png" alt="">
-    </div>
-    <div class="desc">
-      <h3>CompasBnB - find your perfect stay</h3>
-      <p>This is a clone of the world famous website AirBnB that was created by our team
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/img2_erbij5.png"  class=" w-100 h-100 alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-bg-dark opacity-75">CompasBnB - find your perfect stay</h5>
+          <p class="text-bg-dark opacity-75">This is a clone of the world famous website AirBnB that was created by our team
       of web developers in a very short span of time - just one week! It was a learning
       project at Le Wagon coding bootcamp.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1691669399/Movierate_screenshot_crqt80.png"  class=" w-100 h-100 alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-bg-dark opacity-75">Movierate - create and rate movie lists</h5>
+          <p class="text-bg-dark opacity-75">This site allows you to create, edit, and delete custom lists of movies.
+      It was created as a task at Le Wagon coding bootcamp.</p>
+        </div>
+      </div>
     </div>
-    <div class="link-box">
-      <%= link_to "https://github.com/AlexTolk/Compas_BnB-vue" do %> <h1><i class="fa-brands fa-github"></i></h1> <% end %>
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
-  <div class="project-card">
-    <div class="thumb">
-      <%# <%= cl_image_tag "img3_flbyr4" %>
-      <img src="https://res.cloudinary.com/dl270riq7/image/upload/v1684412966/img3_flbyr4.png" alt="">
-    </div>
-    <div class="desc">
-      <h3>Movierate - create and rate movie lists</h3>
-      <p>This site allows you to create, edit, and delete custom lists of movies.
-      It was created as a task at Le Wagon coding bootcamp.
-      </p>
-    </div>
-    <div class="link-box">
-      <%= link_to "https://github.com/AlexTolk/rails-watch-list" do %> <h1><i class="fa-brands fa-github"></i></h1> <% end %>
-    </div>
-  </div>
 </div>
