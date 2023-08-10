@@ -18,31 +18,16 @@
   margin: 10px;
 }
 
-.project-card {
-  background-color: rgba(13,35,44,0.9);
-  box-shadow: 1.5px 1.5px 3px 2px black;
-  display: flex;
-  margin: 2rem 2rem;
-  justify-content: space-between;
-  color: whitesmoke;
-  font-family: Roboto;
-  padding: 1rem;
-}
-.desc{
-  margin: 15px;
-}
-.desc h3 {
-  margin-bottom: 10px;
-}
-
-.desc p {
-  font-size: 15px;
-}
-
-.link-box h1 {
-  margin: 15px 0 15px 0;
-}
-
-.link-box a {
-  color: #ffcc00;
+@media only screen and (max-width: 600px) {
+  .container-proj{
+    margin: 1em 2em;
+    height: fit-content;
+  }
+  .intro-proj h1 {
+    padding: 0;
+    margin: 5px;
+  }
+  .carousel {
+    height: 500px;
+  }
 }
