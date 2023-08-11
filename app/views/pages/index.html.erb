@@ -80,5 +80,45 @@
         <%= link_to "See how I create sites", "/stack"%>
       </div>
     </div>
+    <div class="modal-box text-center">
+      <button type="button" class="btn btn-dark  border border-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Send me a message!</button>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content text-bg-dark ">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Send Alex a message!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="">
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label ">Input your email so I can get back to you:</label>
+                  <input type="text" class="form-control text-bg-dark" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control text-bg-dark" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-target="#ModalToggle2" data-bs-toggle="modal">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ModalToggle2" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content text-bg-dark">
+          <div class="modal-header">
+            <h5 class="modal-title">Message sent!</h5>
+            <button type="button" class="btn-close text-bg-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
   </div>
 </body>
