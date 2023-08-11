@@ -36,7 +36,7 @@
 }
 
 .menu ul li {
-  padding: 0 0.5rem;
+  padding: 0 1.5rem;
 }
 
 .navbar-link a {
@@ -54,5 +54,14 @@
   /* For mobile phones: */
   .menu ul {
     font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu{
+    padding-right: 1rem;
+  }
+  .menu ul li {
+    padding: 0 1vw;
   }
 }
