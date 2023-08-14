@@ -2,6 +2,8 @@
 // import './components'
 console.log('hello from application.js')
 
+ScrollReveal().reveal('.card');
+
 
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
