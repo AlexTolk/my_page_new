@@ -2,7 +2,7 @@
 // import './components'
 console.log('hello from application.js')
 
-ScrollReveal().reveal('.card', { delay: 500 });
+ScrollReveal().reveal('.card', { delay: 500, duration: 1000, rotate: {x: 5, y:5, z:0,} });
 
 
 const typedText = document.querySelector(".typed-text");
